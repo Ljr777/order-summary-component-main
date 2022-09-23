@@ -1,0 +1,78 @@
+body {
+  font-family: "Red Hat Display", sans-serif;
+  background-image: url("./images/pattern-background-desktop.svg");
+  background-repeat: no-repeat;
+  background-color: hsl(225, 100%, 94%);
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.hero-illustration {
+  border-radius: 20px 20px 0 0;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  max-width: 400px;
+  justify-content: center;
+}
+.card-details {
+  width: 100%;
+  background-color: white;
+  padding: 45px;
+  text-align: center;
+  border-radius: 0 0 20px 20px;
+}
+.description {
+  margin-top: 15px;
+}
+
+.price {
+  display: flex;
+  flex-direction: row;
+  background-color: hsl(225, 100%, 98%);
+  align-items: center;
+  padding: 20px;
+  border-radius: 10px;
+  margin-top: 15px;
+}
+.music-icon {
+  margin-right: 15px;
+}
+.plan-type {
+  color: hsl(223, 47%, 23%);
+}
+.settings {
+  font-size: 14px;
+}
+button {
+  width: 100%;
+  padding: 15px 0;
+  background-color: hsl(245, 75%, 52%);
+  border: none;
+  border-radius: 9px;
+  color: white;
+  margin-top: 20px;
+  font-weight: bold;
+  box-shadow: -1px 11px 41px -8px rgba(0, 0, 0, 0.4);
+  -webkit-box-shadow: -1px 11px 41px -8px rgba(0, 0, 0, 0.4);
+  -moz-box-shadow: -1px 11px 41px -8px rgba(0, 0, 0, 0.4);
+}
+.undo-btn {
+  margin-top: 25px;
+}
+.column {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  margin-right: 50px;
+}
+h1 {
+  color: hsl(223, 47%, 23%);
+  font-size: 26px;
+}
+p {
+  font-size: 16px;
+  color: hsl(224, 23%, 55%);
+}

@@ -1,0 +1,18 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.pale-blue {
+  background-color: hsl(225, 100%, 94%);
+}
+.bright-blue {
+  background-color: hsl(245, 75%, 52%);
+}
+.bold-text {
+  font-weight: bold;
+}
+
+/* - Very pale blue: hsl(225, 100%, 98%)
+- Desaturated blue: hsl(224, 23%, 55%)
+- Dark blue: hsl(223, 47%, 23%) */
