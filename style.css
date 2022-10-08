@@ -40,6 +40,7 @@ body {
   padding: 2rem;
   border-radius: 1rem;
   margin-top: 1rem;
+  position: relative;
 }
 .music-icon {
   margin-right: 1rem;
@@ -53,7 +54,8 @@ body {
   transition: all 0.3s;
   font-weight: 700;
   color: hsl(245, 75%, 52%);
-  margin-left: 1.5rem;
+  position: absolute;
+  left: 75%;
 }
 .settings:hover,
 .settings:active {

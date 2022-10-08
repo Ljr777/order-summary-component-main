@@ -1,6 +1,19 @@
 /* BELOW 600px */
 @media (max-width: 37.5em) {
+  html {
+    font-size: 56.25%;
+  }
   main {
     margin: 2rem;
+  }
+}
+
+/* BELOW 375px */
+@media (max-width: 23.44em) {
+  html {
+    font-size: 50%;
+  }
+  main {
+    margin: 5rem;
   }
 }
