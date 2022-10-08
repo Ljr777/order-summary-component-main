@@ -1,3 +1,6 @@
+html {
+  font-size: 62.5%;
+}
 body {
   font-family: "Red Hat Display", sans-serif;
   background-image: url("./images/pattern-background-desktop.svg");
@@ -7,25 +10,26 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
+  font-size: 1.6rem;
 }
 .hero-illustration {
-  border-radius: 20px 20px 0 0;
+  border-radius: 2rem 2rem 0 0;
 }
 .container {
   display: flex;
   flex-direction: column;
-  max-width: 400px;
+  max-width: 40rem;
   justify-content: center;
 }
 .card-details {
   width: 100%;
   background-color: white;
-  padding: 45px;
+  padding: 4.5rem;
   text-align: center;
-  border-radius: 0 0 20px 20px;
+  border-radius: 0 0 2rem 2rem;
 }
 .description {
-  margin-top: 15px;
+  margin-top: 1.5rem;
 }
 
 .price {
@@ -33,46 +37,73 @@ body {
   flex-direction: row;
   background-color: hsl(225, 100%, 98%);
   align-items: center;
-  padding: 20px;
-  border-radius: 10px;
-  margin-top: 15px;
+  padding: 2rem;
+  border-radius: 1rem;
+  margin-top: 1rem;
 }
 .music-icon {
-  margin-right: 15px;
+  margin-right: 1rem;
 }
 .plan-type {
   color: hsl(223, 47%, 23%);
 }
-.settings {
-  font-size: 14px;
+.settings:link,
+.settings:visited {
+  font-size: 1.5rem;
+  transition: all 0.3s;
+  font-weight: 700;
+  color: hsl(245, 75%, 52%);
+  margin-left: 1.5rem;
 }
-button {
+.settings:hover,
+.settings:active {
+  text-decoration: none;
+}
+.btn:link,
+.btn:visited {
+  display: inline-block;
+  text-decoration: none;
   width: 100%;
-  padding: 15px 0;
+  padding: 1rem 0;
   background-color: hsl(245, 75%, 52%);
-  border: none;
-  border-radius: 9px;
+  border-radius: 0.9rem;
   color: white;
-  margin-top: 20px;
+  margin-top: 2rem;
   font-weight: bold;
+  font-weight: 500;
   box-shadow: -1px 11px 41px -8px rgba(0, 0, 0, 0.4);
   -webkit-box-shadow: -1px 11px 41px -8px rgba(0, 0, 0, 0.4);
   -moz-box-shadow: -1px 11px 41px -8px rgba(0, 0, 0, 0.4);
+  transition: all 0.3s;
 }
-.undo-btn {
-  margin-top: 25px;
+.btn:hover,
+.btn:active {
+  background-color: hsl(245.2, 74.4%, 66.3%);
+}
+.undo-btn:link,
+.undo-btn:visited {
+  display: inline-block;
+  text-decoration: none;
+  margin-top: 2.5rem;
+  font-weight: 700;
+  color: hsl(223.1, 16.6%, 46.1%);
+  transition: all 0.3s;
+}
+.undo-btn:hover,
+.undo-btn:active {
+  color: hsl(222.5, 47%, 22.9%);
 }
 .column {
   display: flex;
   flex-direction: column;
-  gap: 5px;
-  margin-right: 50px;
+  gap: 0.5rem;
+  margin-right: 5rem;
 }
 h1 {
   color: hsl(223, 47%, 23%);
-  font-size: 26px;
+  font-size: 2.6rem;
 }
 p {
-  font-size: 16px;
+  font-size: 1.6rem;
   color: hsl(224, 23%, 55%);
 }
